@@ -4,7 +4,7 @@ Facial Recognition implemented using prebuilt FaceNet Deep learning model.
   
 Project Flow Chart  
   
-![Picture1](https://user-images.githubusercontent.com/51827238/234006609-1cab7931-3e5a-49a5-a6ba-46388a75c685.png)
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/51827238/234007223-90fadca4-7d3a-4be9-88b8-7f1abdcd330f.png)
 
 Android Application (Kotlin)  
   
