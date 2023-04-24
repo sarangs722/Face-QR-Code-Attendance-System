@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+
+  #student {
+    background-color: #ffcc99; /* light orange */
+  }
+  
+  #teacher {
+    background-color: #99ccff; /* light blue */
+  }
+  
+  #admin {
+    background-color: #99ff99; /* light green */
+  }
+  
+  .box:hover {
+    transition: transform .4s;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
