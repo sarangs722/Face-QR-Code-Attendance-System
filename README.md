@@ -1,2 +1,2 @@
-# FaceRecog-QR-Code-Attendance-System
+# QRCode-FacialRecog-Attendance-System
 Dynamically changes QR codes every 10 seconds to combat fraud.
