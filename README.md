@@ -16,8 +16,8 @@ Android Application (Kotlin)
 
 Web Portal (Node.js)
 
-![Picture2](https://user-images.githubusercontent.com/51827238/234006767-054131e7-c376-4d86-bde1-1ed5c31a615b.png)
+![Screenshot 2023-04-17 133700](https://user-images.githubusercontent.com/51827238/234007793-a4fcc1bf-d08b-4415-8b18-8624d5f01581.png)
 
-![Picture6](https://user-images.githubusercontent.com/51827238/234006785-3868d432-4a19-416d-8d82-5196b97e1228.png)
+![Screenshot 2023-04-17 133810](https://user-images.githubusercontent.com/51827238/234007805-5616e9e1-1df3-453f-b078-5393bc07b803.png)
 
 ![Picture1](https://user-images.githubusercontent.com/51827238/234006971-aaa787f1-4f68-4e4d-a6fa-ec74b2f0d57f.jpg)
