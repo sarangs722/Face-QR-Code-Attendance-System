@@ -30,12 +30,16 @@ HOW TO RUN PROJECT?
 open qrAppNode folder in VSCode terminal or simply in command line
 execute below commands
 
-> npm install
-> node server.js
+```javascript
+npm install
+node server.js
+```
 
 server is hosted locally on PORT 3000 by default.
 open browser and go to 
-"localhost:3000"
+```
+localhost:3000
+```
 
 to host the server on the internet, use ngrok
 Search Google for ngrok, and download it
@@ -43,10 +47,14 @@ Signup on ngrok through there official website, make your account, an "authoriza
 
 Run ngrok.exe as administrator
 execute the command
-"ngrok config add-authtoken <YOUR_TOKEN>"
+```
+ngrok config add-authtoken <YOUR_TOKEN>
+```
 
 now execute
-"ngrok.exe http 3000"
+```
+ngrok.exe http 3000
+```
 
 It will provide a public forwarding url. Copy this url.
 The website is now publically hosted on the internet.
