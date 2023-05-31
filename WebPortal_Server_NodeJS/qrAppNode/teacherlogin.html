@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teacher Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login-page-body">
+	<header class ="with_log_out">
+        <h1>Advance QR code-based Attendance System</h1>
+        <div class ="log_out">
+            <form action="/">
+                <button type = "submit" class = "button btn btn-secondary">Home</button>
+            </form>
+        </div>
+    </header>
+
+
+	<!-- <div class = "login-wrapper"> -->
+		<div class="login-box">
+			<h2>Teacher's Login</h2>
+			<br>
+			<form action = "/teacherLog", method = "POST">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" required>
+
+				<input type="submit" value="Login">
+			</form>
+		</div>
+	<!-- </div> -->
+	</div>
+
+	<footer>
+        <p>&copy; ABES Engineering College 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gold_500"
+    tools:context=".PrimaryActivity">
+<!--    android:background="@drawable/app_background_image"-->
+
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/tabLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        >-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:id="@+id/markAttendanceTab"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:tooltipText="@string/mark_attendance"-->
+<!--            android:text="@string/mark_attendance"-->
+<!--            />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:id="@+id/viewRecordsTab"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:tooltipText="@string/view_records"-->
+<!--            android:text="@string/view_records"-->
+<!--            />-->
+
+<!--    </com.google.android.material.tabs.TabLayout>-->
+
+    <TextView
+        android:id="@+id/welcome_user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/blue_500"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aller_regular"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Welcome, user" />
+
+    <TextView
+        android:id="@+id/user_details_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/blue_500"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aller_regular"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/user_details"
+        app:layout_constraintTop_toBottomOf="@id/welcome_user_text"
+        tools:text="User Details" />
+
+    <TextView
+        android:id="@+id/user_details_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/blue_500"
+
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aller_regular"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_details_heading"
+        tools:text="User Details" />
+
+    <Button
+        android:id="@+id/markAttendanceButton"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        style="@style/Widget.Material3.Button.Icon"
+        android:fontFamily="@font/aller_regular"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_marginBottom="20dp"
+        android:text="@string/mark_attendance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/viewRecordsButton" />
+
+    <Button
+        android:id="@+id/viewRecordsButton"
+        android:layout_width="280dp"
+        android:fontFamily="@font/aller_regular"
+        android:layout_height="80dp"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="45dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:text="@string/view_records"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/logoutButton" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="130dp"
+        android:fontFamily="@font/aller_regular"
+        android:layout_height="80dp"
+        style="@style/Widget.Material3.Button.Icon"
+
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:text="@string/log_out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

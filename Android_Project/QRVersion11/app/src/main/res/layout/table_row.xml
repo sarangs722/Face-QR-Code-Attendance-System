@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/table_border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/courseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:fontFamily="@font/aller_regular"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Course"
+        android:layout_column="1"/>
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aller_regular"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Date"
+        android:layout_column="2"/>
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aller_regular"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Time"
+        android:layout_column="3"/>
+</TableRow>

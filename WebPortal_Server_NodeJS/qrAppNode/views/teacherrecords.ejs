@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teacher Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class ="with_log_out">
+        <h1>Advance QR code-based Attendance System</h1>
+        <div class ="log_out">
+            <form action="/teacherPortal">
+                <button type = "submit" class = "button btn btn-secondary">Home</button>
+            </form>
+        </div>
+        <div class ="log_out">
+            <form action="/">
+                <button type = "submit" class = "button btn btn-secondary">Log Out</button>
+            </form>
+        </div>
+    </header>
+
+
+        <div class = "mainTeacherRecords">
+            <div class = "records-wrapper">
+                <form action = "/recordsQuery", method = "POST">
+                    <label for = "course">Course: </label>
+                    <select id="course" name="course">
+                        <option value="Databases$KCS501">Databases (KCS501)</option>
+                        <option value="Web-Technology$KIT501">Web Technology (KIT501)</option>
+                        <option value="Algorithms$KCS503">Algorithms (KCS503)</option>
+                        <option value="OOSD$KCS054">OOSD (KCS054)</option>
+                        <option value="Machine-Learning$KCS055">Machine Learning (KCS055)</option>
+                    </select>
+
+                    <label for = "lecdate">Date: </label>
+                    <input type="date" id="lecdate" name="lecdate">
+
+                    <label for = "lectime">TimeSlot: </label>
+                    <select id="lectime" name="lectime">
+                        <option value="0850-0940">08:50 AM - 09:40 AM</option>
+                        <option value="0940-1030">09:40 AM - 10:30 AM</option>
+                        <option value="1040-1130">10:40 AM - 11:30 AM</option>
+                        <option value="1130-1220">11:30 AM - 12:20 PM</option>
+                        <option value="1220-0110">12:20 PM - 01:10 PM</option>
+                    </select>
+
+                    <input type="submit" value="Check Records">
+                </form>
+
+            </div>
+
+
+            <div class = "attendanceWrapper">
+                <!-- <div class = "attendanceTable"> -->
+
+                        <div class = "attendanceRow  attendanceHeading">
+                            <p>Roll Number</p>
+                            <p>Name</p>
+                            <p>Phone</p>
+                        </div>
+
+                    <%if (records.length != 0) {%>
+                        <%records.forEach(function(record, index) {%>
+                            <div class = "attendanceRow">
+                                <p><%=record.details['0'].email%></p>
+                                <p><%=record.details['0'].name%></p>
+                                <p><%=record.details['0'].phone%></p>
+                            </div>
+                        <%})%>
+                    <%} else {%>
+                        <div class = "attendanceRow noRecords">
+                            
+                            No Records Found!</div>
+                    <%}%>
+
+                <!-- </div> -->
+
+            </div>
+        </div>
+
+
+    
+    <footer>
+        <p>&copy; ABES Engineering College 2023</p>
+    </footer>
+</body>
+</html>

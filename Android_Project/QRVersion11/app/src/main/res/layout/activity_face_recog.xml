@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_500"
+    tools:context=".FaceRecog">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.sarangs722.qrversion11.faceRecog.BoundingBoxOverlay
+        android:id="@+id/bbox_overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homeButton"
+        style="@style/Widget.Material3.Button"
+        android:backgroundTint="@color/gold_500"
+        android:textColor="@color/blue_500"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/aller_regular"
+        android:text="@string/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/log_textview"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:background="@drawable/textview_background"-->
+    <!--        android:maxHeight="36dp"-->
+    <!--        android:text="Welcome!"-->
+    <!--        android:padding="16dp"-->
+    <!--        android:gravity="bottom"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        android:textSize="12sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

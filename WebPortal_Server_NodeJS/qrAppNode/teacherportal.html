@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teacher Portal</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		
+
+        <!-- <form action = "/addTeacher", method = "POST">
+            <label for = "name">Full Name</label>
+            <input type = "text" id = "name" name = "name" required>
+
+            <label for = "email">Email</label>
+            <input type = "email" id = "email" name = "email" required>
+
+            <label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Add Teacher">
+        </form> -->
+
+		<!-- <form action = "/adminLog", method = "POST">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Login">
+		</form> -->
+
+    <header class ="with_log_out">
+        <h1>Advance QR code-based Attendance System</h1>
+        <div class ="log_out">
+            <form action="/">
+                <button type = "submit" class = "button btn btn-secondary">Log Out</button>
+            </form>
+        </div>
+    </header>
+
+    <div class = "teacher-menu">
+        <a href="/teacherRecords">
+            <div class="box" id="teacherrecords">
+                <img src="attendance.png" alt=""/>
+                <h2>View Records</h2>
+                
+                <!-- <p>Login to manage the attendance system.</p> -->
+                <!-- <p>You can manage the system by adding or removing students, adding or removing teachers and generating
+                    reports.</p> -->
+            </div>
+        </a>
+
+        <a href="/teacherGenerateQr">
+            <div class="box" id="teachergenerateqr">
+                <img src="qr-code.png" alt=""/>
+                <h2>Generate QR</h2>
+                
+                <!-- <p>Login to take attendance for your class.</p> -->
+                <!-- <p>You can take attendance for your class, view attendance records of your students and generate reports.
+                </p> -->
+    
+            </div>
+        </a>         
+    </div>
+
+    <footer>
+        <p>&copy; ABES Engineering College 2023</p>
+    </footer>
+</body>
+</html>
