@@ -3,7 +3,10 @@ Dynamically changes QR codes every 10 seconds to combat fraud.
 Facial Recognition implemented using prebuilt FaceNet Deep learning model.  
   
 Project Flow Chart  
-  
+
+
+![Screenshot 2023-04-17 130326](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/8a81cb9b-38be-48b6-b4d8-de3b84d4bffb)
+
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/51827238/234007223-90fadca4-7d3a-4be9-88b8-7f1abdcd330f.png)
 
 FOLDERS
@@ -72,16 +75,32 @@ Now, to run the Android App on your smartphone, there are mainly two ways:
 
 Android Application (Kotlin)  
   
-![Picture3](https://user-images.githubusercontent.com/51827238/234006667-b8d17974-bbe9-4ee3-aede-b468c8f53dd0.png)
+![LoginActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/c54646b2-7ef8-45d7-a04c-96e92b2be02b)
 
-![Picture4](https://user-images.githubusercontent.com/51827238/234006687-38e79826-efb4-405d-b2c8-2db7c5fb1bdc.jpg)  
+![RegisterActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/ef43881d-f9d7-494c-9198-0b73d69ad405)
 
-![Picture5](https://user-images.githubusercontent.com/51827238/234006703-b3f882bd-dad1-46a0-98e4-d67176259945.jpg)
+![UserHomeActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/7232ed85-4d6b-4433-9db3-280512712216)
+
+![FaceRegister](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/46fb421c-f322-435b-a4e9-16fcc2f65a0f)
+
+![FaceRecognized](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b375d442-8b8b-47be-8f68-1bbd7f7c5382)
+
+![QRScanActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/d415cd57-7d7c-4d96-8fed-4f9607bfed56)
+
+![AttendanceRecords](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b12fae8c-693a-4c94-b875-473f13dac071)
+
 
 Web Portal (Node.js)
 
-![Screenshot 2023-04-17 133700](https://user-images.githubusercontent.com/51827238/234007793-a4fcc1bf-d08b-4415-8b18-8624d5f01581.png)
+![TeacherLogin](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/9e98923c-96d1-4766-8c0d-83f146c62eff)
 
-![Screenshot 2023-04-17 133810](https://user-images.githubusercontent.com/51827238/234007805-5616e9e1-1df3-453f-b078-5393bc07b803.png)
+![TeacherPortal](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/6b37383a-fa01-47ff-8326-147ef72201bd)
 
-![Picture1](https://user-images.githubusercontent.com/51827238/234006971-aaa787f1-4f68-4e4d-a6fa-ec74b2f0d57f.jpg)
+![ViewRecords](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/d33de4b8-f53b-4ce1-9b68-af8c05233fc8)
+
+![GenerateQRCode](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/f440cf6d-23db-43a6-817d-6592bf8908f6)
+
+![QRCode](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/eb222f8c-2d9d-4746-b3c3-23f4ed348ea8)
+
+
+
