@@ -75,7 +75,7 @@ Now, to run the Android App on your smartphone, there are mainly two ways:
 
 Android Application (Kotlin)  
   
-![LoginActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/c54646b2-7ef8-45d7-a04c-96e92b2be02b)
+![LoginActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/c54646b2-7ef8-45d7-a04c-96e92b2be02b | width=100)
 
 ![RegisterActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/ef43881d-f9d7-494c-9198-0b73d69ad405)
 
