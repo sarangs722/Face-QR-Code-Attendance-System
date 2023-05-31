@@ -6,6 +6,62 @@ Project Flow Chart
   
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/51827238/234007223-90fadca4-7d3a-4be9-88b8-7f1abdcd330f.png)
 
+FOLDERS
+
+qrAppNode folder
+-> Node.js project source code
+
+QRVersion11
+-> Android Studio project source code
+
+------------------------------------------------------------------------------------------
+
+SOFTWARES REQUIRED
+
+Android Studio
+Visual Studio Code /any other code editor
+ngrok
+MongoDB (preferrably MongoDBCompass is well)
+
+------------------------------------------------------------------------------------------
+
+HOW TO RUN PROJECT?
+
+open qrAppNode folder in VSCode terminal or simply in command line
+execute below commands
+
+> npm install
+> node server.js
+
+server is hosted locally on PORT 3000 by default.
+open browser and go to 
+"localhost:3000"
+
+to host the server on the internet, use ngrok
+Search Google for ngrok, and download it
+Signup on ngrok through there official website, make your account, an "authorization token" is provided.
+
+Run ngrok.exe as administrator
+execute the command
+"ngrok config add-authtoken <YOUR_TOKEN>"
+
+now execute
+"ngrok.exe http 3000"
+
+It will provide a public forwarding url. Copy this url.
+The website is now publically hosted on the internet.
+
+Now, open the specified folder "QRVersion11" in Android Studio.
+open the class file "MyUrl.kt"
+replace the url with the one that you copied from ngrok.exe
+
+Now, to run the Android App on your smartphone, there are mainly two ways:
+-> by wireless debugging mode, (refer Google Search)
+-> by exporting the apk file and transferring the file to the Android phone and installing it. (refer Google Search)
+
+
+
+
 Android Application (Kotlin)  
   
 ![Picture3](https://user-images.githubusercontent.com/51827238/234006667-b8d17974-bbe9-4ee3-aede-b468c8f53dd0.png)
