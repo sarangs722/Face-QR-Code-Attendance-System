@@ -74,32 +74,49 @@ Now, to run the Android App on your smartphone, there are mainly two ways:
 
 
 Android Application (Kotlin)  
+
+<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/c54646b2-7ef8-45d7-a04c-96e92b2be02b" width="40%">
+<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/ef43881d-f9d7-494c-9198-0b73d69ad405" width="40%">
+&nbsp;
+
+<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/7232ed85-4d6b-4433-9db3-280512712216" width="40%">
+<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/46fb421c-f322-435b-a4e9-16fcc2f65a0f" width="40%">
+&nbsp;
+
+<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b375d442-8b8b-47be-8f68-1bbd7f7c5382" width="40%">
+<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/d415cd57-7d7c-4d96-8fed-4f9607bfed56" width="40%">
+&nbsp;
+
+<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b12fae8c-693a-4c94-b875-473f13dac071" width="40%">
   
-![LoginActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/c54646b2-7ef8-45d7-a04c-96e92b2be02b | width=100)
+<!-- ![LoginActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/c54646b2-7ef8-45d7-a04c-96e92b2be02b | width=100) -->
 
-![RegisterActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/ef43881d-f9d7-494c-9198-0b73d69ad405)
+<!-- ![RegisterActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/ef43881d-f9d7-494c-9198-0b73d69ad405) -->
 
-![UserHomeActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/7232ed85-4d6b-4433-9db3-280512712216)
+<!-- ![UserHomeActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/7232ed85-4d6b-4433-9db3-280512712216) -->
 
-![FaceRegister](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/46fb421c-f322-435b-a4e9-16fcc2f65a0f)
+<!-- ![FaceRegister](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/46fb421c-f322-435b-a4e9-16fcc2f65a0f) -->
 
-![FaceRecognized](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b375d442-8b8b-47be-8f68-1bbd7f7c5382)
+<!-- ![FaceRecognized](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b375d442-8b8b-47be-8f68-1bbd7f7c5382)
 
-![QRScanActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/d415cd57-7d7c-4d96-8fed-4f9607bfed56)
+![QRScanActivity](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/d415cd57-7d7c-4d96-8fed-4f9607bfed56) -->
 
-![AttendanceRecords](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b12fae8c-693a-4c94-b875-473f13dac071)
-
+<!-- ![AttendanceRecords](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/b12fae8c-693a-4c94-b875-473f13dac071) -->
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 Web Portal (Node.js)
 
 ![TeacherLogin](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/9e98923c-96d1-4766-8c0d-83f146c62eff)
-
+&nbsp;
 ![TeacherPortal](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/6b37383a-fa01-47ff-8326-147ef72201bd)
-
+&nbsp;
 ![ViewRecords](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/d33de4b8-f53b-4ce1-9b68-af8c05233fc8)
-
+&nbsp;
 ![GenerateQRCode](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/f440cf6d-23db-43a6-817d-6592bf8908f6)
-
+&nbsp;
 ![QRCode](https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/eb222f8c-2d9d-4746-b3c3-23f4ed348ea8)
 
 
