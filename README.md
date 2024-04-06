@@ -84,7 +84,7 @@ Now, to run the Android App on your smartphone, there are mainly two ways:
 <img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/ef43881d-f9d7-494c-9198-0b73d69ad405" width="40%">
 &nbsp;
 
-<img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/7232ed85-4d6b-4433-9db3-280512712216" width="40%">
+<img src="https://github.com/sarangs722/sarangs722/assets/51827238/0a9e1456-2dc9-4015-a0fe-a71930cadfbc" width="40%">
 <img src="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System/assets/51827238/46fb421c-f322-435b-a4e9-16fcc2f65a0f" width="40%">
 &nbsp;
 
